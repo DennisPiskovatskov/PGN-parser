@@ -15,7 +15,7 @@ file. A couple PGN files reside in
 ### 0. clone this repository
 
 ```bash
-git clone https://github.com/bkiers/PGN-parser
+git clone https://github.com/DennisPiskovatskov/PGN-parser
 cd PGN-parser
 ```
 
