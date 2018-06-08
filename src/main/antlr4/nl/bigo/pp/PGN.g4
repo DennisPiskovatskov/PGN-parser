@@ -27,6 +27,7 @@
  * Project      : A Portable Game Notation (PGN) ANTLR 4 grammar
  *                and parser.
  * Developed by : Bart Kiers, bart@big-o.nl
+ *                Dennis Piskovatskov, dennis.piskovatskov@javaee.solutions
  */
 
 //
@@ -250,7 +251,7 @@ NUMERIC_ANNOTATION_GLYPH
 /// following the symbol character sequence.  Currently, a symbol is limited to a
 /// maximum of 255 characters in length.
 SYMBOL
- : [a-zA-Z0-9] [a-zA-Z0-9_+#=:-]*
+ : [a-zA-Z0-9] [a-zA-Z0-9_+#=:\-\.]*
  ;
 
 /// Import format PGN allows for the use of traditional suffix annotations for

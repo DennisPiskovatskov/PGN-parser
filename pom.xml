@@ -7,11 +7,11 @@
   <groupId>nl.bigo</groupId>
   <artifactId>pp</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>pgn-parser</name>
 
   <properties>
-    <antlr4.version>4.2</antlr4.version>
+    <antlr4.version>4.3</antlr4.version>
   </properties>
 
   <dependencies>
@@ -33,9 +33,7 @@
   </dependencies>
 
   <build>
-
     <plugins>
-
       <plugin>
         <groupId>org.antlr</groupId>
         <artifactId>antlr4-maven-plugin</artifactId>
@@ -117,7 +115,6 @@
           </archive>
         </configuration>
       </plugin>
-
     </plugins>
 
     <pluginManagement>
@@ -127,14 +124,12 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.7.0</version>
           <configuration>
-            <!-- put your configurations here -->
             <source>1.6</source>
-            <target>1.9</target>
+            <target>1.9</target> <!-- NOTE: JDK 9 -->
           </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
-
   </build>
 
 </project>
