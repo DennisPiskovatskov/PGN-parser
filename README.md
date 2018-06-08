@@ -34,5 +34,5 @@ mvn install package
 ### 3. Parse a PGN file
 
 ```bash
-java -jar target/pp-0.1.0.jar src/resources/Karpov.pgn
+java -jar target/pp-0.1.1-SNAPSHOT.jar src/resources/Karpov.pgn
 ```
